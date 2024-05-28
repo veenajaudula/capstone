@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+    
+} 
+img{
+    width: 100%;
+}
+body{
+    height: 100%;
+}
+
+
+
+
+@media (min-width:400px){
+    
+    
+    nav{
+        margin: 1rem;
+        margin-top: 3rem;
+        
+    }
+    .one{
+        display: flex;
+        list-style: none;
+        background-color: t;
+        
+    }
+    .one img{
+        height: 3rem;
+        padding-right: 0.6rem;
+    }
+    .one h2{
+        font-size: 3rem;
+    }
+    .one input{
+        
+        border: none;
+        outline: none;border: 1px solid skyblue;
+        background-color: skyblue;
+        border-radius: 15px;
+        padding: 0.3rem;
+        margin-left: 3rem;
+    }
+    .one ul{
+        display: flex;
+        list-style: none;
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+    .one ul li{
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+    main {
+        
+
+        margin-top: 4vh;
+    }
+    .left .top ,h4,p,h1{
+        margin-top: 3vh;
+        font-size: 1.5rem;
+    }
+    .featuers{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .featuers img{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 6vh;
+        
+    }
+    .button{
+        margin: 4vh 0;
+        border: none;
+        outline: none;
+        padding: 1rem;
+        
+        background-color: skyblue;
+        border-radius: 15px;
+        font-weight: bold;
+    
+    }
+    .right img{
+        height: 30rem;
+        background-color: skyblue;
+        border-radius: 50%;
+        
+
+    }
+    .two .top{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        border: 1px solid skyblue;
+        background-color: skyblue;
+        width: 120vh;
+        height: 40vh;
+        margin: 1rem;
+        margin-top: 4vh;
+        padding: 2rem;
+        
+        
+    }
+    .four .features{
+        gap: 2rem;
+    }
+    .two .top img{
+        border-radius: 40%;
+        margin-top: 3vh;
+        height: 10rem;
+        width: 10rem;
+
+        
+    }
+    .two .top h3{
+        margin-top: 4vh;
+        padding-left: 1rem;
+        font-size: 2rem;
+    }
+    .three{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100vh;
+        padding: 2rem;
+        margin-left: 1.5rem;
+        border-radius: 20px;
+
+        
+        
+        
+
+    }
+    .three span{
+        font-size: 1.3rem;
+        
+        
+    }
+    .three .left{
+        background-color: skyblue;
+        padding: 1rem;
+        height: 20rem;
+        padding-right: 2rem;
+    }
+    .three .right{
+        background-color: skyblue;
+    
+    }
+    .three .right img{
+        height:10rem ;
+        width: 10rem;
+    }
+
+    .three .left img{
+        height: 10rem;
+        width: 11rem;
+        border-radius: 50%;
+    }
+
+    .four .top h2{
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+    .four .top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        
+        
+    }
+    .features {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 4vh;
+        margin-left: 4rem;
+        padding: 2rem;
+        
+    }
+    .features img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 20%;
+
+    }
+    .five{
+        display: flex;
+        border: 1px solid skyblue;
+        background-color: skyblue;
+        margin-left: 3rem;
+        width: 95vh;
+        height: 30vh;
+        margin-top: 6vh;
+        border-radius: 15px;
+        padding: 1rem;
+    }
+    .five .right img{
+        height:15rem;
+        width: 15rem;
+        margin-top: 3vh;
+        margin-left: 10rem;
+
+    }
+    
+    
+
+    .box{
+        margin-top:3vh ;
+        padding: 1rem;
+        width: 20vh;
+        border-radius: 15px;
+        border: none;
+        font-weight: bold;
+        
+    }
+    .six .top h1{
+        margin-top:5vh;
+        margin-left: 6rem;
+        font-size: 3rem;
+    }
+    
+    .six .featuers{
+        display: flex;
+        gap: 1rem;
+        margin-left: 5rem;
+        
+    }
+
+    .six .featuers img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 20px;
+    }
+
+    .b{
+        
+        display: flex;
+        
+        margin-top: 10vh;
+        padding: 1rem;
+        
+    }
+    .b h2{
+        font-size: 3rem;
+    }
+    .b img{
+        height: 4rem;
+        width: 4rem;
+        margin-right: 1rem;
+    }
+    .b ul{
+        display: flex;
+        list-style: none;
+        margin-left: 6rem;
+    }
+    .b ul li{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .b input{
+        margin-left: 4rem;
+        border: none;
+        outline: none;
+        border: 1px solid skyblue;
+        padding: 1rem;
+        background-color: skyblue;
+        border-radius: 20px;
+        width: 60vh ;
+      
+    }
+
+
+    .veena .left{
+        margin-top: 6vh;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-left: 1rem;
+    }
+    .veena .left img{
+        height: 10rem;
+        width: 10rem;
+        padding: 1rem;
+        background-color: skyblue;
+        margin: 2rem;
+        border-radius: 20px;
+        
+    }
+    .veena .right{
+        margin-top: 4vh;
+        margin: 1rem;
+    }
+    .veena .right img{
+        margin-left: 30rem;
+        margin-top: -160%;
+        
+    }
+
+    .a6{
+        margin: 1rem;
+        
+    }
+    .a6 img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 12px;
+        
+    }
+    .a6 .boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 4vh;
+        margin: 2rem;
+        
+        
+    }
+    .a6 .boxs div{
+        padding: 4rem;
+    }
+
+    .two .top{
+        width:90vh;
+        height: 30vh;
+        margin-left: 4rem;
+        border-radius: 20px;
+    }
+    .main{
+        margin: 1rem;
+    }
+    .main .right img{
+        margin-left: 30rem;
+        margin-top: -40rem;
+    }
+
+
+
+    @media (min-width:700px){
+        nav{
+            border-color: green;
+        }
+        .one{
+            margin-top: 2vh;
+        }
+        .one img{
+        
+            height: 3rem;
+            width: 3rem;
+            
+        }
+    
+        .one ul{
+            margin-left: 5rem;
+        }
+        .one input{
+            margin-left: 2rem;
+        }
+
+
+        .main .right img{
+            width: 0;
+            height: 0;
+        }
+        .veena .right .flex img{
+
+            height: 0rem;
+            width: 0rem;
+            
+
+        }
+        
+
+    }
+
+
+
+
+    @media (min-width:900px){
+
+    
+        .one h2{
+            font-size: 2rem ;
+        }
+        .one ul{
+            margin-left: 20rem;
+            
+        }
+        .one input{
+            margin-left: 10rem;
+            width: 60vh;
+            
+            
+
+        }
+        .one img{
+        height: 2rem;
+        width: 2rem;
+        }
+        
+        .main{
+            display: flex;
+            margin: 1rem;
+        }
+        .button{
+            width: 60%;
+            padding: 0.6rem;
+        }
+         .main .right img{
+        
+         margin-left: 100%;
+         margin-top: -150%;
+
+        
+        }
+        .two{
+            margin-left:3rem;
+    
+            margin-top: 5vh;
+            
+            
+        }
+        .three{
+            margin-left:6rem ;
+            width: 95vh;
+            margin-top: 3vh;
+            padding: 2rem;
+            border-radius: 12px;
+            
+
+        }
+          
+        .four .features{
+            margin-left:20rem ;
+        }
+        .five{
+            margin-top: 6vh;
+            margin-left: 4rem;
+            
+            height: 30vh;
+            padding: 3rem;
+
+        }
+        
+        
+        .six .top{
+            text-align: center;
+        }
+        .six .featuers{
+            margin-left: 5rem;
+        }
+
+        .two .top{
+            
+            margin-right: 10rem;
+            
+        }
+        .two img{
+            height: 5rem;
+            width: 5rem;
+        }
+        .five .right img{
+            width: 15rem;
+            height: 15rem;
+            margin-top: -4vh;
+        }
+        .b{
+            margin-top: 6vh;
+
+    
+        }
+        .veena .right .flex img{
+
+            height: 20rem;
+            width: 20rem;
+            
+
+        }
+        .veena .flex{
+            margin-left: 20rem;
+            margin-top: 4vh;
+        }
+        .b ul{
+            margin-left: 25rem;
+        }
+        .b ul li{
+            font-size: 1.5rem;
+        }
+        .b h2{
+            font-size: 2rem;
+        }
+        .b{
+            margin-top: 6vh;
+        }
+        .b img{
+            height: 2rem;
+            width: 2rem;
+        }
+        .b input{
+            padding: 0.8rem;
+            width: 60vh;
+            height: 1rem;
+        }
+        .veena .left img{
+            height: 5rem;
+            width: 5rem;
+            padding: 2rem;
+        }
+
+        .five .right img{
+            margin-top:4vh;
+        }
+        
+
+
+        
+    
+    }
